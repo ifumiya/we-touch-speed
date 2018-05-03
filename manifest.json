@@ -18,8 +18,7 @@
  
     "browser_action": {
        "default_icon": {
-         "20": "icons/icon_20.png",
-         "40": "icons/icon_40.png"
+         "48": "icons/icon.png",
        },
        "default_title": "PopUp",
        "default_popup": "popup/popup.html"
