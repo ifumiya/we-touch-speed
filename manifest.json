@@ -1,7 +1,7 @@
 {
-    "author": "fodk",
-    "description": "Change playback speed to 1.4 on amazon video",
-    "name": "AmazonSpeedup",
+    "author": "FODK",
+    "description": "Change playback speed or something with Edge",
+    "name": "We-Touch-Speed",
     "version": "1.1",
     "icons": {
        "40": "icons/icon-48.png"
