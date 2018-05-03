@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>popup</title>
+    <title>AS</title>
+    <style>
+        html 
+        {
+            height: 2em;
+            width:  calc(2em * 3);
+            overflow: hidden;
+        }
+        body
+        {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        input 
+        {
+            height: 100%;
+            width: 30vw;
+        }
+    </style>
 </head>
 <body>
-    This is popup.
+    <input id="minus_button" type="button" value="-">
+    <input id="playback_rate_caption" type="text" value="1.0">
+    <input id="plus_button" type="button" value="+">
 </body>
+<script src="popup.js?axv"></script>
 </html>
