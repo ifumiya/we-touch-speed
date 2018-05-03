@@ -1,7 +1,30 @@
-"permissions": [
+{
+    "author": "fodk",
+    "description": "This is first time of edge extenion",
+    "name": "FToEE",
+    "version": "1.0",
+    "icons": {
+       "20": "icons/beasts-20.png",
+       "40": "icons/beasts_40.png"
+    },
+ "permissions": [
     "*://*/*"
-], 
-"content_scripts": [{
-    "js": ["content_scripts/beastify.js"],
+ ],
+ 
+ "content_scripts": [{
+    "js": ["content_scripts/cs.js"],
     "matches": ["*://*/*"]
-}],
+ }],
+ 
+    "browser_action": {
+       "default_icon": {
+         "20": "icons/beasts_20.png",
+         "40": "icons/beasts_40.png"
+       },
+       "default_title": "PopUp",
+       "default_popup": "popup/popup.html"
+    },
+ 
+    "web_accessible_resources": [
+    ]
+ }
