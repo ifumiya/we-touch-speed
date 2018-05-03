@@ -3,16 +3,17 @@ window.addEventListener("load", () => {
     const minusButton = document.getElementById("minus_button");
     const playbackRateCaption = document.getElementById("playback_rate_caption");
 
-    let playbackRate = window.storage.sync.playbackRate || 1.0;
+    let playbackRate = 1.0;
+    browser.storage.local.get("playbackRate", value => playbackRate = value.playbackRate || 1.0);
 
     const addPlaybackRate = (value) => {
-        console.log(value);
+        console.log({ value, playbackRate});
         playbackRate += value;
         playbackRateCaption.value = playbackRate;
-        window.storage.sync.playbackRate = playbackRate;
+        browser.storage.local.set({ playbackRate });
     };
 
-    console.log(plusButton);
+    console.log("init last");
     plusButton.addEventListener("click", () => addPlaybackRate(0.1));
     minusButton.addEventListener("click", () => addPlaybackRate(-0.1));
     playbackRateCaption.value = playbackRate;
