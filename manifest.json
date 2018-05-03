@@ -13,7 +13,7 @@
  
  "content_scripts": [{
     "js": ["content_scripts/cs.js"],
-    "matches": ["*://*/*"]
+    "matches": ["https://www.amazon.co.jp/gp/video/detail/*"]
  }],
  
     "browser_action": {

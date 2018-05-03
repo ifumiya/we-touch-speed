@@ -1,4 +1,3 @@
-document.addEventListener("click", function(e) {
-    console.log(e);
-    e.target.style.color = "red";
-});
+document
+    .querySelector("video")
+    .playbackRate = 1.4;
