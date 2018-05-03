@@ -4,8 +4,7 @@
     "name": "AmazonSpeedup",
     "version": "1.1",
     "icons": {
-       "20": "icons/icon_20.png",
-       "40": "icons/icon_40.png"
+       "40": "icons/icon-48.png"
     },
     "permissions": [
         "*://*/*"
@@ -18,7 +17,7 @@
  
     "browser_action": {
        "default_icon": {
-         "48": "icons/icon-48.png"
+         "40": "icons/icon-48.png"
        },
        "default_title": "PopUp",
        "default_popup": "popup/popup.html"
