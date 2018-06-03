@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=1980, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>We-Touch-Speed 設定ページ</title>
-    <script src="vue.js"></script>
     <script src="option.js"></script>
 </head>
 <body id="optionApps">
     <h1>We Touch Speed 設定ページ</h1>
 
     <h2>有効化対象</h2>
-    <input type="checkbox" v-model="isBlacklist">
-    <input type="checkbox" v-model="isBlacklist">
-    <textarea v-model="isBlacklist"></textarea>
+    <input type="checkbox" id="blacklistCheckbox">
+    <textarea v-model="blacklistTextarea"></textarea>
 </body>
 </html>
