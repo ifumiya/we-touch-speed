@@ -12,7 +12,7 @@
     ],
     
     "content_scripts": [{
-        "js": ["content_scripts/cs.js"],
+        "js": ["cs.js"],
         "matches": ["https://www.amazon.co.jp/gp/video/detail/*"]
     }],
  
@@ -20,7 +20,7 @@
        "default_icon": {
          "40": "icons/icon-48.png"
        },
-       "default_title": "PopUp",
-       "default_popup": "popup/popup.html"
+       "default_title": "Speed Touch",
+       "default_popup": "popup.html"
     }
  }
