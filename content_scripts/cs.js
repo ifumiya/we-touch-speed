@@ -7,7 +7,7 @@ const changePLaybackRate = () => {
         }
     });
     const video = document.querySelector("video");
-    if (video.playbackRate != playbackRate) {
+    if (video && video.playbackRate != playbackRate) {
         console.log(`Change playback rate ${video.playbackRate} to ${playbackRate}`);
         video.playbackRate = playbackRate;
     }
