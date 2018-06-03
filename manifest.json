@@ -24,8 +24,5 @@
        "default_popup": "popup.html"
     },
 
-    
-    "options_url": {
-        "page": "option.html"
-    }
+    "options_page":  "option.html"
  }
