@@ -22,5 +22,10 @@
        },
        "default_title": "Speed Touch",
        "default_popup": "popup.html"
+    },
+
+    
+    "options_url": {
+        "page": "option.html"
     }
  }
